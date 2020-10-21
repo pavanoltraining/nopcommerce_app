@@ -10,5 +10,11 @@ public class Dummy {
 	{
 		Assert.assertTrue(true);
 	}
+	
+	@Test
+	void test1234()
+	{
+		Assert.assertTrue(true);
+	}
 
 }
