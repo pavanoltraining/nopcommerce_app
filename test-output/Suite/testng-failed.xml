@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="searchCustomerbyEmail"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerByEmail_004 -->
+      <class name="com.nopcommerce.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_LoginDDT_002 -->
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="addNewCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTest_003 -->
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerByName_005">
+        <methods>
+          <include name="searchCustomerbyName"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerByName_005 -->
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

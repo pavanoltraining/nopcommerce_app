@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.nopcommerce.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="nopCommerceTests(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTest_003 -->
+    </classes>
+  </test> <!-- nopCommerceTests(failed) -->
+</suite> <!-- Failed suite [nopcommerce] -->

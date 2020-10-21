@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [nopCommerce Master Suite]" duration-ms="20329" started-at="2020-10-21T06:34:50 IST" finished-at="2020-10-21T06:35:10 IST">
+    <groups>
+      <group name="regression">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="nopCommerceTests(failed)" duration-ms="20329" started-at="2020-10-21T06:34:50 IST" finished-at="2020-10-21T06:35:10 IST">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="setup" is-config="true" duration-ms="10041" started-at="2020-10-21T06:34:50 IST" finished-at="2020-10-21T06:35:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="loginTest" duration-ms="9774" started-at="2020-10-21T06:35:00 IST" finished-at="2020-10-21T06:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@4135c3b]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-10-21T06:35:10 IST" finished-at="2020-10-21T06:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </test> <!-- nopCommerceTests(failed) -->
+  </suite> <!-- Failed suite [nopCommerce Master Suite] -->
+</testng-results>

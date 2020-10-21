@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="nopCommerce Group Suite" thread-count="5">
+	<parameter name="browser" value="chrome" />
+	<!-- <parameter name="browser" value="edge"/>  -->
+	<!-- <parameter name="browser" value="firefox"/> -->
+	 	
+	 <listeners>
+		<listener
+			class-name="com.nopcommerce.utilities.ExtentReportManager" />
+	</listeners>
+	
+	<test name="nopCommerceTests" >
+		
+		<groups>
+         <run>
+            <include name = "sanity" />
+            <!--<exclude name = "regression" /> -->
+         </run>
+      	</groups>
+      
+
+		<!-- <classes>
+			<class name="com.nopcommerce.testCases.TC_LoginTest_001" />
+			<class name="com.nopcommerce.testCases.TC_AddCustomerTest_003" />
+			<class name="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004" />
+			<class name="com.nopcommerce.testCases.TC_SearchCustomerByName_005" />
+		</classes>  -->
+		
+		<packages>
+      		<package name="com.nopcommerce.testCases" />
+      	</packages>
+		
+	</test>
+  
+	
+</suite>
